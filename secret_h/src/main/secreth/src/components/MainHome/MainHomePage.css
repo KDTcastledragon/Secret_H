@@ -1,0 +1,38 @@
+.MainHomePageContainer {
+    background-color: rgb(195, 255, 217);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.MainHomeTitle {
+    width: 1400px;
+    height: 200px;
+    margin: 10px auto;
+    /* background-color: aqua; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: transform(0, 3)ease;
+}
+
+.MainHomeTitle:hover {
+    cursor: pointer;
+}
+
+.MainHomeTitle>span:nth-child(1) {
+    display: inline-block;
+    font-size: 110px;
+    font-weight: bold;
+}
+
+.MainHomeTitle>span:nth-child(2) {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: blueviolet;
+}
